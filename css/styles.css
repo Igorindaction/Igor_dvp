@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 100px;
+}
+
+.field {
+	width: 500px;
+	height: 500px;
+	margin: 0 0 0 30%;
+	display: flex;
+	flex-wrap: wrap;
+	background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%);;
+} 
+
+.excel {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+
+.snakeBody {
+	background: url('../img/scales.jpg');
+	background-size: cover;
+	border-radius: 50%;
+}
+
+.head {
+	background: url('../img/head.jpg');
+	background-size: cover;
+	border-radius: 10$;	
+}
+.mouse {
+	background: url('../img/mouse.png');
+	background-size: cover;
+	
+}
